@@ -1,0 +1,15 @@
+model,alarm_top_pct,threshold,precision_P(event|alarm),recall_share_events_caught,lift_vs_base,false_alarm_rate
+SPX logistic,20% of days,0.1117,0.174,0.442,2.21,0.826
+SPX logistic,10% of days,0.1631,0.215,0.274,2.73,0.785
+SPX logistic,5% of days,0.2207,0.254,0.162,3.23,0.746
+SPX gradboost,20% of days,0.1509,0.146,0.371,1.85,0.854
+SPX gradboost,10% of days,0.2583,0.167,0.213,2.13,0.833
+SPX gradboost,5% of days,0.4083,0.175,0.112,2.22,0.825
+SPX rule(vix>20 & ts>0.95),14.8% of days,-,0.192,0.36,2.44,0.808
+NDX logistic,20% of days,0.1479,0.21,0.339,1.69,0.79
+NDX logistic,10% of days,0.2009,0.223,0.181,1.8,0.777
+NDX logistic,5% of days,0.2585,0.222,0.09,1.79,0.778
+NDX gradboost,20% of days,0.2184,0.182,0.294,1.47,0.818
+NDX gradboost,10% of days,0.3188,0.163,0.132,1.32,0.837
+NDX gradboost,5% of days,0.4363,0.151,0.061,1.22,0.849
+NDX rule(vix>20 & ts>0.95),14.8% of days,-,0.227,0.271,1.83,0.773

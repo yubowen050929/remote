@@ -1,0 +1,3 @@
+index,auc_logistic,auc_gradboost,oos_base_rate
+SPX,0.726,0.714,0.0787
+NDX,0.643,0.619,0.1239

@@ -1,0 +1,13 @@
+=== SPX ===
+trading days: 3772, weeks: 784
+daily events (<-1.3%): 291  base rate=7.71%
+weekly events (<-3.0%): 47  base rate=5.99%
+worst day : 2020-03-16  -11.98%
+worst week: 2020-03-20  -14.98%
+
+=== NDX ===
+trading days: 3772, weeks: 784
+daily events (<-1.3%): 427  base rate=11.32%
+weekly events (<-3.0%): 78  base rate=9.95%
+worst day : 2020-03-16  -12.19%
+worst week: 2020-03-20  -12.52%
