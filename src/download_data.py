@@ -22,6 +22,12 @@ TICKERS = {
     "^TNX": "tnx",         # 10y yield
     "RSP": "rsp",          # equal-weight S&P (breadth proxy)
     "^SKEW": "skew",       # CBOE SKEW index (tail-risk pricing)
+    "^VXN": "vxn",         # Nasdaq-100 implied vol
+    "^VIX9D": "vix9d",     # 9d implied vol
+    "^SOX": "sox",         # semiconductor index
+    "JPY=X": "usdjpy",     # yen
+    "GLD": "gld",          # gold ETF
+    "QQQE": "qqqe",        # equal-weight Nasdaq 100
 }
 
 START = "2010-06-01"  # extra runway so 2011 features have lookback
